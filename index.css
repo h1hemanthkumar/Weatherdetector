@@ -1,0 +1,73 @@
+body{
+    margin:0px;
+    background-image:url("https://wallpapercave.com/wp/a1tlfX1.jpg");
+    background-size:cover;
+    background-repeat:none;
+}
+#input
+{   width:200px;
+    height:30px;
+    border-radius:9px;
+    font-size:20px;
+    text-align:center;
+    border-style:none;
+}
+#cityname
+{   font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:50px;
+}
+#temperature
+{   font-size:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#humidity
+{   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#describe
+{   font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+}
+#emoji
+{   margin-top:-40px;
+    font-size:100px;
+    margin-bottom:-10px;
+}
+#things
+{   font-size:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#button
+{   color:white;
+    background-color:lightgreen;
+    border-radius:9px;
+    height:35px;
+    border-style:none;
+    font-weight:bold;
+    font-size:15px;
+}
+#button:hover
+{   height:36px;
+    background-color: rgb(57, 218, 57);  
+}
+#inputfield
+{   display:flex;
+}
+#weatherthings
+{   margin:auto;
+    margin-top:50px;
+}
+#outputfield
+{   display:flex;
+}
+#card
+{   padding-left:100px;
+    padding-right:100px;
+    padding-bottom:50px;
+    border-radius:18px;
+    margin:auto;
+    margin-top:50px;
+    text-align:center;
+    background:linear-gradient(180deg,rgba(8, 126, 236, 0.688),rgba(255, 166, 0, 0.721));
+    box-shadow:2px 3px 7px 7px rgba(0, 0, 0, 0.451);
+}
